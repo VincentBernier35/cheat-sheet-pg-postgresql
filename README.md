@@ -11,7 +11,7 @@
 - `conninfo` permet de voir les paramètres de connexion
  
 ### créer un utilisateur (role)
-- `CREATE ROLE nomDésiré WITH PASSWORD 'nomDésiré';`
+- `CREATE ROLE nomDésiré WITH LOGIN PASSWORD 'nomDésiré';`
 
 ### créer une nouvelle BDD
 - `CREATE DATABASE nomDésiré OWNER 'nomDésiré';`
