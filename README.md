@@ -21,4 +21,9 @@
 
 ### maintenant pour me reconnecter
 `psql -U nomDésiré -d nomDésiré;`
+---
+### supprimer une database et un role/user
+- d'abord se connecter pg `sudo -i -u postgres psql`
+- `DROP DATABASE nomDésiré;`
+- `DROP ROLE nom désiré`;
 
