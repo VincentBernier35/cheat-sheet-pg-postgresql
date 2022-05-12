@@ -7,7 +7,9 @@
 - `\l` liste des bases de données
 - `\du` liste des utilisateurs(rôles) existants
 - `\dt` liste des tables de la bdd courantes
-
+- `i` chemin/fichier.sql => cela permet d'importer une table
+- `conninfo` permet de voir les paramètres de connexion
+ 
 ### créer un utilisateur (role)
 - `CREATE ROLE nomDésiré WITH PASSWORD 'nomDésiré';`
 
