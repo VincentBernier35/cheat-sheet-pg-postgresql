@@ -15,12 +15,18 @@
 
 ### créer une nouvelle BDD
 - `CREATE DATABASE nomDésiré OWNER 'nomDésiré';`
+
+### Modifier un utilisateur existant
+- `ALTER ROLE nomUtilisateur WITH <liste des droits>;`
   
 ### ensuite je sors
 `exit`
 
-### maintenant pour me reconnecter
-`psql -U nomDésiré -d nomDésiré;`
+### maintenant pour me reconnecter     
+ `psql -U nomDésiré -d nomDésiré;`
+
+-  ou sinon sans  `-d nomDésiré` alors connexion à la BDD qui porte le même nom que l'utilisateur.
+
 ---
 ### supprimer une database et un role/user
 - d'abord se connecter pg `sudo -i -u postgres psql`
