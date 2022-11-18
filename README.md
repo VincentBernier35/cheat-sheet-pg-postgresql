@@ -9,6 +9,8 @@
 - `\dt` liste des tables de la bdd courantes
 - `\i` chemin/fichier.sql => cela permet d'importer une table
 - `\conninfo` permet de voir les paramètres de connexion
+- \c nomdeladb   => permet de directement me connecter à cette table
+
  
 ### créer un utilisateur (role)
 - `CREATE ROLE nomDésiré WITH LOGIN PASSWORD 'nomDésiré';`
