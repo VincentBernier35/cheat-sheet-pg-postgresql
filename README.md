@@ -10,6 +10,7 @@
 - `\i` chemin/fichier.sql => cela permet d'importer une table
 - `\conninfo` permet de voir les paramètres de connexion
 - \c nomdeladb   => permet de directement me connecter à cette table
+- \! clear    => permet de clear le terminal
 
  
 ### créer un utilisateur (role)
